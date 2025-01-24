@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/opening.rpy", line 144, in script
+    jump main
+ScriptError: could not find label 'main'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/opening.rpy", line 144, in script
+    jump main
+  File "C:\Users\wjd47\Code\VN Repos\Renpy\Renpy-8.1.3-sdk\renpy\ast.py", line 1699, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\wjd47\Code\VN Repos\Renpy\Renpy-8.1.3-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'main'.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.3.24111502
+ 
+Fri Jan 24 17:06:01 2025
